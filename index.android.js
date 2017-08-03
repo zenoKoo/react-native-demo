@@ -13,8 +13,11 @@ import {
 //import Touchable from './components/Touchable'
 //import ImageTest from './components/ImageTest'
 //import DrawerLayoutTest from './components/DrawerLayoutTest'
-import Test from './components/Test/index'
+//import Test from './components/Test/index'
 //import ViewPagerTest from './components/ViewPagerTest'
+//import SwiperTest from './components/SwiperTest'
+//import WebViewTest from './components/WebViewTest'
+import ListViewTest from './components/ListViewTest'
 export default class demo extends Component{
     render() {
         return (
@@ -23,8 +26,11 @@ export default class demo extends Component{
             //<Touchable />
             //<ImageTest />
             //<DrawerLayoutTest />
-            <Test />
+            //<Test />
             //<ViewPagerTest />
+            //<SwiperTest />
+            //<WebViewTest />
+            <ListViewTest />
         )
     }
 }

@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   button: {
     flex: 1,
     width: 0,
-    margin: 5,
+    margin: 2,
     borderColor: 'gray',
     borderWidth: 1,
     backgroundColor: 'gray'
@@ -42,6 +42,8 @@ const styles = StyleSheet.create({
     opacity: 0.5
   },
   buttonText: {
-    color: 'white'
+    color: 'white',
+    fontSize: 12,
+    textAlign: 'center'
   }
 });

@@ -33,8 +33,8 @@ class ProgressBar extends Component{
         let fractionalPosition = (this.props.progress.position+this.props.progress.offset);
         let progressBarSize = (fractionalPosition/(PAGES -1 ))*this.props.size;
         return (
-            <View style={[styles.progerssBarContainer, {width: this.props.size}]}>
-                <View style={[styles.progerssBar, {width: progressBarSize}]}/>
+            <View style={[styles.progressBarContainer, {width: this.props.size}]}>
+                <View style={[styles.progressBar, {width: progressBarSize}]}/>
             </View>
 
         )
@@ -161,6 +161,9 @@ class WelcomeUI extends Component{
                 </View>
             </View>
         )
+    }
+    componentDidMount() {
+        this.go(PAGES - 1)
     }
 }
 
